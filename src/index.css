@@ -8,7 +8,7 @@ body {
 }
 
 .tool-bar {
-  background-color: #222f3e;
+  background-color: black;
   color: #fff;
   display: flex;
   gap: 1rem;
@@ -18,14 +18,14 @@ body {
 
 .sidebar {
   position: absolute;
-  background-color: #222f3e;
+  background-color: black;
   color: #fff;
   top: 0;
   left: 0;
   height: 100vh;
   width: 280px;
   transform: translateX(-100%);
-  transition: all 0, 4s;
+  transition: all 0.3s;
 }
 
 .sidebar li {
@@ -59,4 +59,20 @@ body {
 
 .backdrop--open {
   display: block;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+}
+
+.modalBtnDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.modalBtn {
+  width: 350px;
+  height: 50px;
 }
